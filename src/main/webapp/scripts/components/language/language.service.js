@@ -8,7 +8,7 @@ angular.module('qyosbeApp')
                 var language = $translate.storage().get('NG_TRANSLATE_LANG_KEY');
 
                 if (angular.isUndefined(language)) {
-                    language = 'en';
+                    language = 'zh-cn';
                 }
 
                 deferred.resolve(language);
@@ -27,8 +27,7 @@ angular.module('qyosbeApp')
  They are written in English to avoid character encoding issues (not a perfect solution)
  */
     .constant('LANGUAGES', [
-        'en', 'fr'
-        ,'zh-cn'
+        'en','zh-cn'
         // jhipster-needle-006 - JHipster will add new languages here
     ]
 );
