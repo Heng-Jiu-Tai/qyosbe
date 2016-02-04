@@ -28,6 +28,7 @@ angular.module('qyosbeApp')
  */
     .constant('LANGUAGES', [
         'en', 'fr'
+        ,'zh-cn'
         // jhipster-needle-006 - JHipster will add new languages here
     ]
 );
