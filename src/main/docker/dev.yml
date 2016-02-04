@@ -1,0 +1,12 @@
+qyosbe-dev-mysql:
+  container_name: qyosbe-dev-mysql
+  image: mysql:5.7.9
+  # volumes:
+  #   - ~/volumes/jhipster/qyosbe/dev-mysql/:/var/lib/mysql/
+  environment:
+    - MYSQL_USER=root
+    - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    - MYSQL_DATABASE=qyosbe
+  ports:
+    - "3306:3306"
+  command: mysqld --lower_case_table_names=1
