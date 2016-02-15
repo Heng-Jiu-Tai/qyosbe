@@ -1,0 +1,21 @@
+{
+    "qyosbeApp": {
+        "blog" : {
+            "home": {
+                "title": "Blogs",
+                "createLabel": "Create a new Blog",
+                "createOrEditLabel": "Create or edit a Blog"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Blog {{ id }}?"
+            },
+            "detail": {
+                "title": "Blog"
+            },
+            "name": "Name",
+            "handle": "Handle",
+            "user": "User",
+            "entry": "Entry"
+        }
+    }
+}
