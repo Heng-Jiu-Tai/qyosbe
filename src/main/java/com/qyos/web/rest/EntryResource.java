@@ -87,7 +87,7 @@ public class EntryResource {
     @Timed
     public List<Entry> getAllEntrys() {
         log.debug("REST request to get all Entrys");
-        return entryRepository.findAllWithEagerRelationships();
+        return entryRepository.findByBlogUserLoginOrderByDateDesc(SecurityUtils.getCurrentUserLogin());
             }
 
     /**
