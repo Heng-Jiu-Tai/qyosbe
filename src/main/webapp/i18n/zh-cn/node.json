@@ -1,0 +1,19 @@
+{
+    "qyosbeApp": {
+        "node" : {
+            "home": {
+                "title": "Nodes",
+                "createLabel": "Create a new Node",
+                "createOrEditLabel": "Create or edit a Node"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Node {{ id }}?"
+            },
+            "detail": {
+                "title": "Node"
+            },
+            "name": "Name",
+            "cluster": "Cluster"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "qyosbeApp": {
+        "cluster" : {
+            "home": {
+                "title": "Clusters",
+                "createLabel": "Create a new Cluster",
+                "createOrEditLabel": "Create or edit a Cluster"
+            },
+            "created": "A new Cluster is created with identifier {{ param }}",
+            "updated": "A Cluster is updated with identifier {{ param }}",
+            "deleted": "A Cluster is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cluster {{ id }}?"
+            },
+            "detail": {
+                "title": "Cluster"
+            },
+            "name": "Name",
+            "description": "Description",
+            "node": "Node",
+            "user": "User"
+        }
+    }
+}
