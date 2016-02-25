@@ -364,6 +364,10 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-data</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-acl</artifactId>
+        </dependency>
         <!-- reporting -->
         <dependency>
             <groupId>fr.ippon.spark.metrics</groupId>
