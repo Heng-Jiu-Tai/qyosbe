@@ -56,7 +56,7 @@
         <metrics-spring.version>3.1.2</metrics-spring.version>
         <run.addResources>false</run.addResources>
         <spring-security.version>4.0.2.RELEASE</spring-security.version>
-        <spring-security-oauth2.version>2.0.8.RELEASE</spring-security-oauth2.version>
+        <spring-security-oauth2.version>2.0.18.RELEASE</spring-security-oauth2.version>
         <springfox.version>2.0.3</springfox.version>
         <!-- Sonar properties -->
         <project.testresult.directory>${project.build.directory}/test-results</project.testresult.directory>
